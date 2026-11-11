@@ -1,0 +1,20 @@
+{
+  "name": "yxtown-study",
+  "version": "0.1.0",
+  "description": "通过本机 Chrome 扩展访问已授权的游习堂课程、笔记和官方附件。",
+  "author": {
+    "name": "LastDreamTeam"
+  },
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "游习堂学习助手",
+    "shortDescription": "通过本机 Chrome 扩展访问已授权的游习堂课程、笔记和官方附件。",
+    "developerName": "LastDreamTeam",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "检查当前连接状态"
+    ]
+  }
+}

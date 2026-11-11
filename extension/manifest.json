@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "游习堂学习助手 · 本机连接",
+  "version": "0.1.0",
+  "description": "让本机 Codex/Dot 使用游习堂已登录页面；不读取或导出 Cookie，不修改学习完成状态。",
+  "permissions": ["alarms", "downloads"],
+  "host_permissions": ["https://www.yxtown.com/*", "https://yxtown.com/*", "http://127.0.0.1:19271/*"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{"matches": ["https://www.yxtown.com/*", "https://yxtown.com/*"], "js": ["extract.js", "content.js"], "run_at": "document_idle"}],
+  "action": {"default_title": "游习堂学习助手：打开我的学习", "default_popup": "popup.html"}
+}
