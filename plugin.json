@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yxtown-study",
+  "version": "0.2.0",
+  "description": "通过限定游习堂域名的 Chrome 扩展访问本账号可见的课程、附件和学习记录。",
+  "author": {
+    "name": "LastDreamTeam"
+  },
+  "repository": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
+  "homepage": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
+  "license": "AGPL-3.0-only",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "游习堂学习助手",
+        "shortDescription": "课程资料、个人学习记录与笔记",
+        "longDescription": "通过限定游习堂域名的 Chrome 扩展访问本账号可见的课程、附件和学习记录。",
+        "developerName": "LastDreamTeam",
+        "category": "Education & Research",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "查看我的学习",
+          "搜索课程资料",
+          "打开我的学习笔记"
+        ]
+      },
+      "requires_local_executor": true
+    }
+  }
+}

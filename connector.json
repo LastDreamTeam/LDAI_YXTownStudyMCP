@@ -1,0 +1,16 @@
+{
+  "id": "yxtown-study",
+  "version": "0.2.0",
+  "repository": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
+  "runtime": "node",
+  "toolPrefixes": [
+    "yxtown_"
+  ],
+  "providerEnvironment": [
+    "YXTOWN_DATA_DIR",
+    "YXTOWN_DOWNLOAD_DIR"
+  ],
+  "requiredMulti": [
+    "YXTOWN_DATA_DIR"
+  ]
+}

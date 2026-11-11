@@ -1,20 +1,27 @@
 {
   "name": "yxtown-study",
-  "version": "0.1.0",
-  "description": "通过本机 Chrome 扩展访问已授权的游习堂课程、笔记和官方附件。",
+  "version": "0.2.0",
+  "description": "通过限定游习堂域名的 Chrome 扩展访问本账号可见的课程、附件和学习记录。",
   "author": {
     "name": "LastDreamTeam"
   },
-  "skills": "./skills",
-  "mcpServers": "./.mcp.json",
+  "repository": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
+  "homepage": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
+  "license": "AGPL-3.0-only",
   "interface": {
     "displayName": "游习堂学习助手",
-    "shortDescription": "通过本机 Chrome 扩展访问已授权的游习堂课程、笔记和官方附件。",
+    "shortDescription": "课程资料、个人学习记录与笔记",
+    "longDescription": "通过限定游习堂域名的 Chrome 扩展访问本账号可见的课程、附件和学习记录。",
     "developerName": "LastDreamTeam",
+    "category": "Education & Research",
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [
-      "检查当前连接状态"
+      "查看我的学习",
+      "搜索课程资料",
+      "打开我的学习笔记"
     ]
-  }
+  },
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills"
 }

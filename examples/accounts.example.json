@@ -1,0 +1,17 @@
+{
+  "connector": "yxtown-study",
+  "accounts": {
+    "work": {
+      "env": {
+        "YXTOWN_DATA_DIR": "/private/work/study",
+        "YXTOWN_DOWNLOAD_DIR": "/private/work/downloads/YXTown-Study"
+      }
+    },
+    "personal": {
+      "env": {
+        "YXTOWN_DATA_DIR": "/private/personal/study",
+        "YXTOWN_DOWNLOAD_DIR": "/private/personal/downloads/YXTown-Study"
+      }
+    }
+  }
+}

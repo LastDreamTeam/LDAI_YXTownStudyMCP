@@ -1,11 +1,12 @@
 {
   "mcpServers": {
     "yxtown-study": {
-      "command": "node",
+      "type": "stdio",
+      "command": "python",
       "args": [
-        "${PLUGIN_ROOT}/server.mjs",
-        "--stdio"
-      ]
+        "${PLUGIN_ROOT}/router.py"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
     }
   }
 }
