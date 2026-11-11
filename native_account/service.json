@@ -1,0 +1,23 @@
+{
+  "product": "yxtown-study",
+  "tool": "yxtown_my_courses",
+  "description": "读取这个浏览器账号正在学习的第一页课程。",
+  "keys": [
+    "YXTOWN_DATA_DIR",
+    "YXTOWN_PORT"
+  ],
+  "required": [
+    "YXTOWN_DATA_DIR",
+    "YXTOWN_PORT"
+  ],
+  "private_paths": [
+    "YXTOWN_DATA_DIR"
+  ],
+  "url_keys": [],
+  "entry": "server.mjs",
+  "args": {
+    "view": "learning",
+    "pages": 1
+  },
+  "bound_args": {}
+}

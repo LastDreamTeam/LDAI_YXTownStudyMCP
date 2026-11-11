@@ -1,0 +1,17 @@
+{
+  "issuer": "https://identity.example.org",
+  "origin": "https://connector.example.org",
+  "jwks_uri": "https://identity.example.org/jwks",
+  "runtime": "/opt/connector/bin/node",
+  "bindings": {
+    "replace-with-idp-subject": {
+      "id": "b171c5ce-86d8-4bb4-9b88-e0c625ac0137",
+      "label": "Work",
+      "home": "/var/lib/connector/work",
+      "env": {
+        "YXTOWN_DATA_DIR": "/var/lib/connector/work/yxtown_data_dir",
+        "YXTOWN_PORT": "14231"
+      }
+    }
+  }
+}

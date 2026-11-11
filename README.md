@@ -58,3 +58,5 @@ MCP 入口为 `router.py`，需要 Python 3.11+。主机在本地保存账号配
 维护者在 main 提交改进、运行测试，并同步更新 connector.json、两个插件清单的版本，再执行 `python build_plugin.py --push`。此命令将 main 与版本标签一起推送到本仓库，再从已提交文件生成 ZIP。更新既有账号插件时传 `--account-name <既有包名>`，把生成的 ZIP 发布到同一插件。包内 release-source.json 记录精确提交，可与各终端核对。Git 推送与账号插件发布是两个独立步骤。
 
 许可为 **AGPL-3.0-only**。[许可全文](LICENSE)
+
+[原生插件页多账号接入候选版：部署、覆盖范围与验收](native_account/README.md)
