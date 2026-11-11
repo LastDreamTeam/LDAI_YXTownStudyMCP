@@ -41,6 +41,12 @@ GitHub 数据核对日期为 2026-11-11。
 
 本项目以 **GNU Affero General Public License v3.0 only（AGPL-3.0-only）** 发布。分发受许可覆盖的修改版或通过网络向用户提供修改版时，应按许可条款向相应用户提供对应源码。仅在本机自行使用无需公开发布。第三方服务及依赖遵循各自条款。[许可全文](LICENSE)
 
+## 账号管理窗口
+
+在 Codex 对本插件说「管理账号」，或直接运行 python account_manager.py。在窗口中新增连接、编辑显示名和标识、重新连接或断开，修改后刷新客户端工具列表。站点和凭据文件路径仅存当前操作系统用户的配置。已有自定义适配器保留其授权方式；可并行添加原生账号。图形窗口需要 Python 的 Tk 组件，远程无桌面执行器可使用账号 JSON。
+
+支持按词搜索课程、读取页面实际显示的价格、公告和学习进度。yxtown_course_videos 按课时列出网站明确提供下载的视频附件，以 resourceId 调用 yxtown_download。仅有在线播放器的课时会返回空列表。单附件上限 128 MiB。已配置的 Chrome 用户请在同一数据目录运行 node setup.mjs 更新扩展，然后在 Chrome 扩展页重新加载；各浏览器账号使用独立目录和端口。
+
 ## 多账号和终端更新
 
 MCP 入口为 `router.py`，需要 Python 3.11+。主机在本地保存账号配置，默认位置为 `~/.config/ldai-mcp/yxtown-study/accounts.json`，也可用 `LDAI_ACCOUNTS_FILE` 指定。复制 [两账号示例](examples/accounts.example.json)，将地址与路径换成自己的值。为每个账号配置独立 YXTOWN_DATA_DIR，首次通过 profile_exec.py 运行 node setup.mjs 时分别设置不同的 YXTOWN_PORT（例如 19271、19272）。把生成的扩展分别加载到不同的 Chrome 用户资料，然后各自登录。可将 YXTOWN_PORT 直接写进该账号的 env。

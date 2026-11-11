@@ -1,6 +1,6 @@
 {
   "id": "yxtown-study",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
   "runtime": "node",
   "toolPrefixes": [
@@ -8,9 +8,16 @@
   ],
   "providerEnvironment": [
     "YXTOWN_DATA_DIR",
-    "YXTOWN_DOWNLOAD_DIR"
+    "YXTOWN_DOWNLOAD_DIR",
+    "YXTOWN_PORT"
   ],
   "requiredMulti": [
     "YXTOWN_DATA_DIR"
-  ]
+  ],
+  "title": "游习堂学习助手",
+  "managerFields": {
+    "YXTOWN_DATA_DIR": "账号学习数据目录",
+    "YXTOWN_PORT": "独立的本机桥接端口",
+    "YXTOWN_DOWNLOAD_DIR": "Chrome 下载资料目录"
+  }
 }
