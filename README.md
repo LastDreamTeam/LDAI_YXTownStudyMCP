@@ -1,4 +1,4 @@
-# 游习堂学习助手 MCP
+# YXTown Study Assistant MCP
 
 > **自用项目** · 本仓库主要供维护者自用。
 

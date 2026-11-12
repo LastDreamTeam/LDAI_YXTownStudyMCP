@@ -1,6 +1,6 @@
 {
   "id": "yxtown-study",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repository": "https://github.com/LastDreamTeam/LDAI_YXTownStudyMCP",
   "runtime": "node",
   "toolPrefixes": [
@@ -14,7 +14,7 @@
   "requiredMulti": [
     "YXTOWN_DATA_DIR"
   ],
-  "title": "游习堂学习助手",
+  "title": "YXTown Study Assistant",
   "managerFields": {
     "YXTOWN_DATA_DIR": "账号学习数据目录",
     "YXTOWN_PORT": "独立的本机桥接端口",
