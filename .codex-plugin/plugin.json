@@ -1,6 +1,6 @@
 {
   "name": "yxtown-study",
-  "version": "0.3.0",
+  "version": "1.1.0",
   "description": "通过限定游习堂域名的 Chrome 扩展访问本账号可见的课程、附件和学习记录。",
   "author": {
     "name": "LastDreamTeam"

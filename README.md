@@ -60,3 +60,5 @@ MCP 入口为 `router.py`，需要 Python 3.11+。主机在本地保存账号配
 许可为 **AGPL-3.0-only**。[许可全文](LICENSE)
 
 [原生插件页多账号接入候选版：部署、覆盖范围与验收](native_account/README.md)
+
+使用 Codex 插件页连接、重连和管理多个工作站账号，见[工作站接入](native_account/WORKSTATION.md)。
